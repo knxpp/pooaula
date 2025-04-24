@@ -43,7 +43,7 @@ describe('Classe Produto', () => {
 
         test('não deve definir o preço promocional se for maior ou igual ao preço original', () => {
             produto.definirPrecoPromocional(30.00);
-            //TODO: Asserção para verificar se o preço promocional permaneceu nulo
+            //TODO: Asserção para verificar se o preço promocional permaneceu nulo (ok)
             expect(fail); //substituir por asserção correta
             produto.definirPrecoPromocional(25.99);
             //TODO: Asserção para verificar se o preço promocional permaneceu nulo
